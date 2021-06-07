@@ -1,12 +1,13 @@
+using System;
+
 namespace Garage
 {
-    public class Tesla : Vehicle
+    public class Tesla : ElectricVehicle
     {
-        public double BatteryKWh { get; set; }
-
-        public void ChargeBattery()
+        public override void Drive()
         {
-            // method definition omitted
+            // base.Drive();
+            Console.WriteLine($"I drive a modelS colored {MainColor} that has a wattage of {BatteryKWh} and fits {MaximumOccupancy}.");
         }
     }
 }
