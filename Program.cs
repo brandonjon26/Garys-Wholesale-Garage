@@ -8,8 +8,14 @@ namespace Garage
         static void Main(string[] args)
         {
             Zero fxs = new Zero();
-            Tesla modelS = new Tesla();
+            Tesla modelS = new Tesla()
+            {
+                BatteryKWh = 100,
+                MainColor = "blue",
+                MaximumOccupancy = 5
+            };
             Cessna mx410 = new Cessna();
+            Ram model1500 = new Ram();
 
             fxs.Drive();
             modelS.Drive();
