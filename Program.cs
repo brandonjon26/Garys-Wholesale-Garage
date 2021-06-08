@@ -25,7 +25,7 @@ namespace Garage
                 MainColor = "white",
                 MaximumOccupancy = 4
             };
-            Ram model1500 = new Ram()
+            Ram model500 = new Ram()
             {
                 FuelCapacity = 25,
                 MainColor = "red",
@@ -35,6 +35,7 @@ namespace Garage
             fxs.Drive();
             modelS.Drive();
             mx410.Drive();
+            model500.Drive();
         }
     }
 }

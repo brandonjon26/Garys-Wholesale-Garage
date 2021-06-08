@@ -7,7 +7,7 @@ namespace Garage
         public override void Drive()
         {
             // base.Drive();
-            Console.WriteLine($"I drive a modelS colored {MainColor} that has a wattage of {BatteryKWh} and fits {MaximumOccupancy}.");
+            Console.WriteLine($"I drive a modelS Tesla colored {MainColor}! Vrooooom.");
         }
     }
 }
