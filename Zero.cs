@@ -6,7 +6,7 @@ namespace Garage
     {
         public override void Drive()
         {
-            Console.WriteLine("Vrooooom!");
+            Console.WriteLine($"This {MainColor} Zero sucks! Hmmmmmm...");
         }
     }
 }

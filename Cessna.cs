@@ -6,7 +6,7 @@ namespace Garage
     {
         public override void Drive()
         {
-            Console.WriteLine("Zoooooom!");
+            Console.WriteLine($"This {MainColor} Cessna was a great investment! Time to take off!");
         }
     }
 }
