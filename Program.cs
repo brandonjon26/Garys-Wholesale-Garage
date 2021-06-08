@@ -39,9 +39,9 @@ namespace Garage
 
             Console.WriteLine("");
 
-            fxs.Turn("left");
+            fxs.Turn("hard right");
             modelS.Turn("left");
-            mx410.Turn("left");
+            mx410.Turn("right");
             model1500.Turn("left");
 
             Console.WriteLine("");
